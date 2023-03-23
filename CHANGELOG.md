@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.0.2](https://github.com/chrisjohnson00/python-webapp-sample/tree/v0.0.2) (2023-03-23)
+
+[Full Changelog](https://github.com/chrisjohnson00/python-webapp-sample/compare/v0.0.1...v0.0.2)
+
+**Merged pull requests:**
+
+- chore: adding probe endpoints [\#2](https://github.com/chrisjohnson00/python-webapp-sample/pull/2) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
 ## [v0.0.1](https://github.com/chrisjohnson00/python-webapp-sample/tree/v0.0.1) (2023-03-23)
 
 [Full Changelog](https://github.com/chrisjohnson00/python-webapp-sample/compare/45b74386dc0145ca9feda81d1fc99cbec894ebe0...v0.0.1)
