@@ -5,6 +5,7 @@ from flask import (
 )
 
 bp = Blueprint('app', __name__, url_prefix='/')
+api_hostname = get_config('API_HOSTNAME')
 
 
 @bp.route('/')
@@ -14,9 +15,16 @@ def index():
 
 @bp.route('/users')
 def users():
-    backend_service = Backend(api_hostname=get_config('API_HOSTNAME'))
+    backend_service = Backend(api_hostname=api_hostname)
     users = backend_service.get_users()
     return render_template('app/users.html', users=users)
+
+
+@bp.route('/comments')
+def comments():
+    backend_service = Backend(api_hostname=api_hostname)
+    comments = backend_service.get_comments()
+    return render_template('app/comments.html', comments=comments)
 
 
 @bp.route('/ready')

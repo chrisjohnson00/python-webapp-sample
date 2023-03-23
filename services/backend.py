@@ -6,7 +6,13 @@ class Backend:
         self.api_hostname = api_hostname
 
     def get_users(self):
-        url = f'http://{self.api_hostname}/api/v1/users'
+        return self.get('/api/v1/users')
+
+    def get_comments(self):
+        return self.get('/api/v1/comments')
+
+    def get(self, api_path):
+        url = f'http://{self.api_hostname}{api_path}'
         response = requests.get(url)
         data = response.json()
         return data
