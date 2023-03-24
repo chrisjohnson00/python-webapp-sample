@@ -12,5 +12,6 @@ A sample Web App in Python with Flask
 
 ```commandline
 export FLASK_APP=webapp_sample
-flask --debug run
+export API_HOSTNAME=localhost:5000
+flask --debug run -p 5001
 ```
