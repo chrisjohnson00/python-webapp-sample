@@ -15,3 +15,9 @@ export FLASK_APP=webapp_sample
 export API_HOSTNAME=localhost:5000
 flask --debug run -p 5001
 ```
+
+## Env Vars
+
+ - `USERS_ENDPOINT` - An optional variable to set the path of the Users endpoint, defaulted to `/api/v1/users`
+ - `COMMENTS_ENDPOINT` - An optional variable to set the path of the Comments endpoint, defaulted to `/api/v1/comments`
+ - `API_HOSTNAME` - The hostname for the backend API.  There is no default, a good value would be `python-api-sample.example.com`.
