@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.0](https://github.com/chrisjohnson00/python-webapp-sample/tree/v0.1.0) (2023-03-24)
+
+[Full Changelog](https://github.com/chrisjohnson00/python-webapp-sample/compare/v0.0.2...v0.1.0)
+
+**Implemented enhancements:**
+
+- feat: integrating comments api [\#3](https://github.com/chrisjohnson00/python-webapp-sample/pull/3) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
 ## [v0.0.2](https://github.com/chrisjohnson00/python-webapp-sample/tree/v0.0.2) (2023-03-23)
 
 [Full Changelog](https://github.com/chrisjohnson00/python-webapp-sample/compare/v0.0.1...v0.0.2)
