@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.1](https://github.com/chrisjohnson00/python-webapp-sample/tree/v0.1.1) (2023-03-25)
+
+[Full Changelog](https://github.com/chrisjohnson00/python-webapp-sample/compare/v0.1.0...v0.1.1)
+
+**Merged pull requests:**
+
+- refactor: adding configuration of the api paths [\#4](https://github.com/chrisjohnson00/python-webapp-sample/pull/4) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
 ## [v0.1.0](https://github.com/chrisjohnson00/python-webapp-sample/tree/v0.1.0) (2023-03-24)
 
 [Full Changelog](https://github.com/chrisjohnson00/python-webapp-sample/compare/v0.0.2...v0.1.0)
